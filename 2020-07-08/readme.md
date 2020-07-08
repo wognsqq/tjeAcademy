@@ -41,7 +41,8 @@ Collection 은 데이터를 보관하는 곳 (주소만 보관)
 - 배열로 데이터를 보관하게 되면, 
 - int[] scores = now [] {100,12,84,95,24}; 크기가 5인 integer 타입 배열 - primitive type 배열 (각각 공간에 직접 데이터 저장)
 - String[] fruits = new String[] {"사과","복숭아","포도"}; 사과 복숭아 포도의 주소만 저장되 있음. 문자는 다른 곳에 저장 - reference type (주소가 저장됨)
-'''java
+
+```
 class Car(카 클래스에 주소 저장){
 	int tire; (인스턴스)
 	int door;
@@ -56,7 +57,7 @@ public class Ex01 {
 		new Car();
 		Car[] cars = new Car[3];
  
-'''
+```
 
 Ex02
 - collection type을 저장할 때는 타입을 보통 지정 한다 <>
