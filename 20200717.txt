@@ -1,0 +1,6 @@
+C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib - ojdbc6.jar 꺼내서
+C:\Program Files\Java\jre1.8.0_251\lib\ext 여기에 복붙
+
+//	day18 - new - build path - configure build path - library 탭 클릭 -   add external jars- C:\Program Files\Java\jre1.8.0_251\lib\ext- ojdbc6(?) 클릭 &apply
+	
+		// 1) 드라이버 등록 -oracle.driver 패키지에서 - OracleDriver.class 찾고 - oracle.jdbc.driver.OracleDriver
